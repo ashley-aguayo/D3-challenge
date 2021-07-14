@@ -57,9 +57,9 @@ d3.csv("assets/data/data.csv").then(function(data){
     .append("circle")
     .attr("cx", d => xLinearScale(d.healthcare))
     .attr("cy", d => yLinearScale(d.poverty))
-    .attr("r", "20")
-    .attr("fill", "lightblue")
-    .attr("opacity", ".75");
+    .attr("r", "18")
+    .attr("fill", "teal")
+    .attr("opacity", ".55");
     
     //add statetext abbr for circles
     var circleText = chartGroup.selectAll(".stateText")
